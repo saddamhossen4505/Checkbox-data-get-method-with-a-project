@@ -15,43 +15,61 @@
 <body>
     
 
-
-
     <div class="container">
         <div class="row justify-content-center">
             <div class="col-md-6">
-                <div class="card">
-                    <div id="foodOrder" class="card-body">
-                        <h2 class="text-center">Apni ki khaben vai ?</h2>
+                <div class="card shadow">
+                    <div class="card-header">
+                        <h1 class="text-center">Add new student</h1>
                         <hr>
-                        <div class="my-3">
-                            <input type="checkbox" name="food" value="Bereyani" price="120">
-                            <label>Bereyani - 120TK.</label>
-                        </div>
-                        <div class="my-3">
-                            <input type="checkbox" name="food" value="Tahari" price="130">
-                            <label>Tahari - 130TK.</label>
-                        </div>
-                        <div class="my-3">
-                            <input type="checkbox" name="food" value="Khichuri" price="150">
-                            <label>Khichuri - 150TK.</label>
-                        </div>
-                        <div class="my-3">
-                            <input type="checkbox" name="food" value="Vat" price="30">
-                            <label>Vat - 30TK.</label>
-                        </div>
-                        <div class="my-3">
-                            <input type="checkbox" name="food" value="Dal" price="70">
-                            <label>Dal - 70TK.</label>
-                        </div>
-                        <div class="msg">
-                            
-                        </div>
+                    </div>
+                    <div class="card-body">
+                        <form id="student_form">
+                            <div class="msg">
+                                
+                            </div>
+                            <div class="my-3">
+                                <label>Name</label>
+                                <input type="text" name="name" class="form-control">
+                            </div>
+                            <div class="my-3">
+                                <label>Email</label>
+                                <input type="text" name="email" class="form-control">
+                                <span class="email_check_field"></span>
+                            </div>
+                            <div class="my-3">
+                                <label>Cell</label>
+                                <input type="text" name="cell" class="form-control">
+                                <span class="cell_field_check"></span>
+                            </div>
+                            <div class="my-3">
+                                <label>Username</label>
+                                <input type="text" name="username" class="form-control">
+                            </div>
+                            <div class="my-3">
+                                <label>Gender</label>
+                                <br>
+                                <label>
+                                    <input type="radio" name="gender" value="male">Male
+                                </label>
+                                <label>
+                                    <input type="radio" name="gender" value="female">Female
+                                </label>
+                            </div>
+                            <img class="loading_img" src="https://media1.giphy.com/media/y1ZBcOGOOtlpC/giphy.gif?cid=ecf05e47h7u0ekq21nzi6surp0e2fg088vo7glz30i2hv2p9&rid=giphy.gif&ct=g" alt="">
+                            <div class="my-3">
+                                <button type="submit" class="btn btn-success btn-sm w-100">Submit</button>
+                            </div>
+                        </form>
                     </div>
                 </div>
             </div>
         </div>
     </div>
+
+
+
+    
 
 
 
